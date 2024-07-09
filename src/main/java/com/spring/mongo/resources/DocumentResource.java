@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@RequestMapping("/api/")
+@RequestMapping("/api/hello")
 
 public class DocumentResource {
     private MongoService mongoService;
